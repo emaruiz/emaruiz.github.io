@@ -1,0 +1,394 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Arvo', serif;
+}
+
+.titular {
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(225,130,10,0.7);
+  border-radius: 10px;
+  width: 875px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.boton-enlace {
+  background: rgb(255,26,10);
+  padding: 20px 30px 20px 30px;
+  color: white;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header {
+  background: url(imagenes/laptop.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ARRANCA SECCION SOBRE MI */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-sobre-mi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor-foto-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto-sobre-mi {
+  width: 240px;
+  height: 450px;
+}
+
+.sobre-mi-logos {
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-mi-logo {
+  margin: 8px 8px;
+  font-size: 2em;
+  color: black;
+}
+
+.contenedor-parrafo {
+  width: 38%;
+}
+
+.contenedor-parrafo p {
+  font-size: 19px;
+  line-height: 1.3;
+}
+
+/* ARRANCA SECCION HABILIDADES */
+
+.opciones {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.opciones li {
+  list-style: none;
+}
+
+.opcion-base {
+  padding: 10px 30px;
+  border: thin solid grey;
+  color: #3a3a3a;
+  font-size: 20px;
+}
+
+.opcion-seleccion {
+  background: rgba(225,26,10,0.1);
+  color: rgb(255,26,10);
+  font-weight: bold;
+  border: thin solid rgb(255,26,10);
+}
+
+.contenedor-areas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.area {
+  background: rgb(225,130,10);
+  width: 400px;
+  margin: 20px 10px;
+  padding: 30px 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.area img {
+  width: 200px;
+  height: 130px;
+}
+
+.area-informacion {
+  width: 175px;
+}
+
+.area-informacion h4 {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.area-lenguajes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+.area-lenguajes li {
+  list-style: none;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+.contenedor-lenguajes {
+  display: none;
+}
+
+.lenguajes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0px;
+}
+
+.lenguajes li {
+  list-style: none;
+  width: 25%;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* ARRANCA SECCION MIS PROYECTOS */
+
+.contenedor-proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 55px;
+}
+
+.proyecto {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 15px rgb(255,26,10);
+  text-align: center;
+  margin: 25px;
+}
+
+.proyecto img {
+  width: 100%;
+  height: 150px;
+}
+
+.proyecto h4 {
+  font-size: 22px;
+  margin: 20px 0px;
+}
+
+.proyecto p {
+  height: 155px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0px;
+  margin-bottom: 13px;
+  font-size: 17px;
+  line-height: 1.3;
+}
+
+.proyecto hr {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 36px;
+}
+
+/* ARRANCA SECCION CONTACTO */
+
+footer {
+  background: rgb(225,130,10);
+  text-align: center;
+  padding: 55px 0px 55px 0px;
+}
+
+footer h3 {
+  margin: 20px 0px 20px 0px;
+}
+
+footer p {
+  font-size: 25px;
+  margin-top: 0px;
+}
+
+footer img {
+  width: 64px;
+}
+
+footer .red-social {
+  font-size: 4em;
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 900px) {
+  .titular {
+    width: 460px;
+  }
+
+  header {
+    background-position: 90%;
+  }
+
+  /* ARRANCA SECCION SOBRE MI */
+  .sobre-mi-logos {
+    width: 100%;
+  }
+
+  .sobre-mi-logo {
+    font-size: 2.5em;
+  }
+
+  /* ARRANCA SECCION HABILIDADES */
+  .area {
+    width: 70%;
+  }
+
+  .area img {
+    width: 50%;
+    height: 160px;
+  }
+
+  .area-informacion {
+    width: 42%;
+  }
+
+  .area-lenguajes {
+    justify-content: center;
+  }
+
+  .lenguajes li {
+    width: 33%;
+  }
+
+  /* ARRANCA SECCION MIS PROYECTOS */
+  .proyecto {
+    width: 45%;
+    height: 545px;
+    margin: 25px 0px;
+  }
+
+  .proyecto img {
+    height: 180px;
+  }
+
+  .proyecto p {
+    height: 177px;
+  }
+}
+
+/* Celular */
+@media (max-width: 600px) {
+  .titular {
+    padding: 10px 0px;
+    width: 90%;
+  }
+
+  header {
+    background-position: right;
+  }
+
+  /* ARRANCA SECCION SOBRE MI */
+  .contenedor-sobre-mi {
+    flex-direction: column;
+  }
+
+  .contenedor-foto-logos {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .foto-sobre-mi {
+    width: 90%;
+    height: auto;
+  }
+
+  .sobre-mi-logos {
+    width: 100%;
+  }
+
+  .sobre-mi-logo {
+    margin-top: 12px;
+    font-size: 3em;
+  }
+
+  .contenedor-parrafo{
+    width: 80%;
+  }
+
+  /* ARRANCA SECCION HABILIDADES */
+  .area {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 80%;
+    height: 295px;
+    padding: 20px 10px;
+  }
+
+  .area img {
+    width: 85%;
+    height: 60%;
+  }
+
+  .area-informacion {
+    width: 70%;
+  }
+
+  .area-informacion h4 {
+    margin-top: 20px;
+  }
+
+  .area-lenguajes {
+    justify-content: center;
+  }
+
+  .lenguajes li {
+    width: 50%;
+  }
+
+  /* ARRANCA SECCION MIS PROYECTOS */
+  .proyecto {
+    width: 80%;
+    height: 545px;
+  }
+
+  .proyecto img {
+    height: 36%;
+  }
+
+  .proyecto p {
+    height: 29%;
+  }
+
+  .proyecto hr {
+    margin-bottom: 30px;
+  }
+}
