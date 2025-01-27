@@ -148,14 +148,14 @@ h3 {
   text-align: center;
 }
 
-.area-lenguajes {
+.area-tecnologias {
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
   padding: 0px;
 }
 
-.area-lenguajes li {
+.area-tecnologias li {
   list-style: none;
   margin-right: 10px;
   margin-bottom: 3px;
@@ -280,7 +280,7 @@ footer .red-social {
     width: 42%;
   }
 
-  .area-lenguajes {
+  .area-tecnologias {
     justify-content: center;
   }
 
@@ -366,7 +366,7 @@ footer .red-social {
     margin-top: 20px;
   }
 
-  .area-lenguajes {
+  .area-tecnologias {
     justify-content: center;
   }
 
